@@ -2,7 +2,7 @@
 A Deep-Learning model for detecting diseases in potato plants
 # PotatoGuard: AI-Powered Disease Detection for Potato Plants
 
-PotatoGuard is an AI-powered solution for detecting diseases in potato plants using machine learning techniques. With PotatoGuard, farmers can identify diseases early, allowing for timely intervention and improved crop management.
+PotatoGuard is an AI-powered solution for detecting diseases in potato plants using machine learning techniques. With PotatoGuard, farmers can identify diseases early, allowing for timely intervention and improved crop management. Given below is a demo to the project (youtube video):
 
 [![PotatoGuard Demo](https://img.youtube.com/vi/nRhaOfMmVyk/0.jpg)](https://www.youtube.com/watch?v=nRhaOfMmVyk)
 
