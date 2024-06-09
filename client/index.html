@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotatoGuard: Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .image-upload {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-upload input[type=file] {
+            display: none;
+        }
+        .image-upload label {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .result {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PotatoGuard: Disease Detection</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Upload Image for Disease Detection</h2>
+        <div class="image-upload">
+            <input type="file" id="fileInput">
+            <label for="fileInput">Choose Image</label>
+        </div>
+        <div class="result">
+            <h3>Result:</h3>
+            <p id="prediction">No prediction yet.</p>
+        </div>
+    </div>
+
+    <script>
+        // Mocking prediction result
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            // Simulating prediction result
+            setTimeout(function() {
+                document.getElementById('prediction').innerText = 'Predicted Disease: Late Blight\nConfidence: 80%';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
